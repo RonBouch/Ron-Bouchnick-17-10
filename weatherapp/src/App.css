@@ -1,22 +1,40 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav{
+  height: 10%;
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 10vh;
+  background-color: rgb(77, 102, 110);
+  color:white;
+}
+.nav-links{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
 }
 
-.App-link {
-  color: #09d3ac;
+.weatherForm{
+  text-align: center;
+  align-items: center;
+  height:100% ;
+  padding: 1%;
+  background-color:white;
+}
+
+.weatherForm2{
+  padding: 2%;
+  background-color: rgb(61, 189, 189);
+
+}
+.dailyWeatherForm{
+  padding:5px;
+  background-color:white;
+  width:150px;
+  height:120px;
+  margin-bottom:5%;
+ border: solid;
 }
